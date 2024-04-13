@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    html {
+        background-color: #fff;
+        font-size: 16px;
+        min-width: 300px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        display: block;
+    }
+    blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {
+        margin: 0;
+        padding: 0;
+    }
+}
