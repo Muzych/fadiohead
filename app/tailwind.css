@@ -17,3 +17,8 @@
         padding: 0;
     }
 }
+
+@font-face {
+    font-family: "Gentium Plus";
+    src: url("../public/fonts/Gentium_Plus/GentiumPlus-Regular.ttf");
+}
